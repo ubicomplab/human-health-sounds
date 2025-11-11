@@ -1,4 +1,4 @@
-# CaCOUGHony
+# Human Health Sounds
 An interactive visualization to organize thousands of human health sounds via t-SNE
 
 ![Exmaple Visualization](img/cover.png)
@@ -13,7 +13,7 @@ A first step towards understanding health sounds involves clustering them. This 
 
 The project provides an interactive grid visualization of clustered audio clips. Users can click on images to view metadata, click and drag to play several related clips simultaneously, and filter by metadata to discover patterns.
 
-The project can be viewed from the following link: https://hishambhatti.github.io/ca-cough-ony
+The project can be viewed from the following link: [https://hishambhatti.github.io/ca-cough-ony](https://hishambhatti.github.io/human-health-sounds)
 
 ## Usage
 
