@@ -5,15 +5,15 @@ An interactive visualization to organize thousands of human health sounds via t-
 
 ## About
 
-Human health sounds — like coughing, sneezing, wheezing, and laughing — carry valuable diagnostic information. These sounds vary widely across individuals but can offer deep insights into respiratory and overall health.
+Human health sounds — like coughing, sneezing, wheezing, and laughing — carry valuable diagnostic information. These sounds vary widely across individuals but can reveal deep insights into respiratory and overall health.
 
-An understanding of these sounds, based solely on their auditory properties, can provide an effective tool for healthcare. For instance, a model can compare an individual's throat clearing sound to typical patterns of throat clearing for healthy populations to potentially diagnose an illness.
+Understanding these sounds purely through their acoustic properties offers an efficient tool for healthcare. For instance, a model can compare an individual's throat-clearing sound to typical patterns of throat clearing for healthy populations to potentially diagnose an illness.
 
-A first step towards understanding health sounds involves clustering them. This experiment uses machine learning to organize thousands of human health sounds among six classes: cough, sneeze, sniff, sigh, throatclearing, laughter. We use VocalSound as our open-source health dataset. This visualization is built entirely through *unsupervised* learning. The model was not given any labels (like sound type or speaker information). Rather, using a technique called t-SNE, the computer created this map purely on acoustic features, and we can observe that similar sounds are placed closer together.
+This project takes a first step toward that goal by clustering human health sounds using machine learning. We organize thousands of human health sounds among six classes: cough, sneeze, sniff, sigh, throat-clearing, and laughter, from the open-source VocalSound dataset. This visualization is built entirely through *unsupervised* learning, in this case simply t-SNE. No labels (such as sound type or speaker identity) were provided; the resulting map is based purely on acoustic features. We observe that similar sounds naturally cluster together, demonstrating that even a simple unsupervised method can uncover clear structure given high-quality embeddings from audio foundation models.
 
 The project provides an interactive grid visualization of clustered audio clips. Users can click on images to view metadata, click and drag to play several related clips simultaneously, and filter by metadata to discover patterns.
 
-The project can be viewed from the following link: [https://hishambhatti.github.io/ca-cough-ony](https://hishambhatti.github.io/human-health-sounds)
+A demo can be viewed from the following link: [https://hishambhatti.github.io/human-health-sounds/](https://hishambhatti.github.io/human-health-sounds)
 
 ## Usage
 
@@ -86,7 +86,7 @@ As you can see, sound types are generally clustered together. The misgroupings o
 
 ## Credit
 
-Developed by [Hisham Bhatti](https://www.linkedin.com/in/hisham-bhatti), working with [Zhihan Zhang](https://homes.cs.washington.edu/~zzhihan), at the [Ubiquitous Computing Lab](https://ubicomplab.cs.washington.edu) in the University of Washington [Paul G. Allen School of Computer Science & Engineering](https://www.cs.washington.edu).
+Developed by [Hisham Bhatti](https://www.linkedin.com/in/hisham-bhatti), working with [Zhihan Zhang](https://homes.cs.washington.edu/~zzhihan), at the [Ubiquitous Computing Lab](https://ubicomplab.cs.washington.edu) in the University of Washington [Paul G. Allen School of Computer Science & Engineering](https://www.cs.washington.edu). We thank [Jake Garrison](https://jakegarrison.me/) for discussion.
 
 This project was based on [Bird Sounds](https://experiments.withgoogle.com/ai/bird-sounds/view) at Google Creative Lab, but designed with modern tooling, and for others to test with their own datasets. In particular, below are some notebooks that I took inspiration from:
 
@@ -95,7 +95,7 @@ This project was based on [Bird Sounds](https://experiments.withgoogle.com/ai/bi
 * [Fingerprints to t-SNE](https://github.com/kylemcdonald/AudioNotebooks/blob/master/Fingerprints%20to%20t-SNE.ipynb)
 * [CloudToGrid](https://github.com/kylemcdonald/CloudToGrid)
 
-The core embedding model is Google’s HeAR model, available on [Hugging Face](https://huggingface.co/google/hear)
+The core embedding model is [Google’s HeAR model](https://github.com/Google-Health/hear), available on [Hugging Face](https://huggingface.co/google/hear)
 
 The dataset used is [VocalSound](https://github.com/YuanGongND/vocalsound), an open-source collection of human health sounds.
 
