@@ -1,0 +1,4464 @@
+{
+ "data": [
+  {
+   "spk_id": "f2750",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2750_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f3027",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3027_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1672",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1672_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m3004",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3004_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m3250",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3250_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f3027",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3027_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0154",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0154_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f3249",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3249_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f2799",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2799_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1515",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1515_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m3209",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3209_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m3250",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3250_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1906",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1906_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2043",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2043_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2345",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2345_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2345",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2345_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1334",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1334_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1029",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1029_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2634",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2634_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1168",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1168_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0803",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0803_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2390",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2390_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1160",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1160_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0640",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0640_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f2043",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2043_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1719",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1719_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1906",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1906_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f0706",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0706_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2976",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2976_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2151",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2151_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0164",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0164_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2853",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2853_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1132",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1132_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1597",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1597_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2739",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2739_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1248",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1248_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1244",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1244_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m3292",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3292_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1533",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1533_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0933",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0933_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0640",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0640_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "o1900",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1900_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1770",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1770_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f2799",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2799_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0498",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0498_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1564",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1564_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0977",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0977_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1029",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1029_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1390",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1390_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "o1661",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1661_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f0509",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0509_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1515",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1515_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0932",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0932_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0450",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0450_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m3209",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3209_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0706",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0706_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1909",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1909_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2992",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2992_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0660",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0660_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1498",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1498_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2283",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2283_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2831",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2831_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f0822",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0822_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f2385",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2385_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f2293",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2293_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1480",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1480_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2596",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2596_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0095",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0095_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2258",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2258_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0430",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0430_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2281",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2281_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1248",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1248_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f0930",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0930_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1334",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1334_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f0087",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0087_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2976",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2976_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1105",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1105_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1298",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1298_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f3291",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3291_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1685",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1685_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2390",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2390_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2992",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2992_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1210",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1210_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1872",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1872_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0369",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0369_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2283",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2283_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2828",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2828_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f2323",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2323_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2222",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2222_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0154",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0154_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0771",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0771_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1168",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1168_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1160",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1160_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0775",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0775_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0238",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0238_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1480",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1480_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2293",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2293_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1770",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1770_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2340",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2340_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1248",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1248_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1132",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1132_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1706",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1706_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0640",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0640_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2082",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2082_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1210",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1210_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1564",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1564_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f2799",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2799_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0977",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0977_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1390",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1390_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f3291",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3291_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m3292",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3292_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1770",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1770_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2938",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2938_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2853",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2853_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1005",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1005_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "o1900",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1900_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2799",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2799_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0640",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0640_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0164",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0164_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2136",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2136_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1719",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1719_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1672",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1672_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2976",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2976_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2976",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2976_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2085",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2085_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2634",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2634_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2385",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2385_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m3004",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3004_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1168",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1168_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2634",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2634_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0238",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0238_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2082",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2082_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1824",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1824_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1334",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1334_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2647",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2647_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f3265",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3265_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1029",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1029_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0803",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0803_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2293",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2293_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2634",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2634_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f2323",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2323_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f2750",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2750_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0930",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0930_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f3027",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3027_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f2938",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2938_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f2293",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2293_1_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0281",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0281_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1567",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1567_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0154",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0154_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0651",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0651_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2151",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2151_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2828",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2828_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2323",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2323_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0750",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0750_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1160",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1160_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1462",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1462_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1564",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1564_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0904",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0904_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2938",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2938_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0771",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0771_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1168",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1168_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0281",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0281_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2750",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2750_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1691",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1691_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0374",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0374_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2281",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2281_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1597",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1597_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1435",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1435_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2258",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2258_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0113",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0113_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1824",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1824_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1691",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1691_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2992",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2992_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2218",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2218_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1210",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1210_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1872",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1872_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0275",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0275_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1008",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1008_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0750",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0750_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1105",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1105_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1564",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1564_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2992",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2992_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2390",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2390_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1462",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1462_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1931",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1931_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f2835",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2835_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2258",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2258_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m3250",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3250_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2828",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2828_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2281",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2281_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1884",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1884_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2596",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2596_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2283",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2283_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2724",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2724_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0366",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0366_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0932",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0932_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2831",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2831_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1396",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1396_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m3120",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3120_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1909",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1909_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0930",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0930_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0275",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0275_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1132",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1132_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2283",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2283_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2363",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2363_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0660",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0660_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2340",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2340_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f2385",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2385_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0450",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0450_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2037",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2037_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0904",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0904_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m3209",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3209_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f3291",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3291_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1909",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1909_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0706",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0706_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2258",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2258_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f2739",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2739_1_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0374",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0374_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1864",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1864_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2222",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2222_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f0369",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0369_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f3265",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3265_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0470",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0470_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0660",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0660_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2739",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2739_1_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2323",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2323_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2136",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2136_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1967",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1967_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1850",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1850_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0095",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0095_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1317",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1317_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0768",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0768_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1967",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1967_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1498",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1498_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0369",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0369_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1160",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1160_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2938",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2938_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0933",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0933_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1829",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1829_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0470",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0470_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0771",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0771_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2831",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2831_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1515",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1515_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f0852",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0852_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2258",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2258_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0161",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0161_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1008",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1008_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m3004",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3004_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1298",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1298_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1480",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1480_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0113",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0113_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2853",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2853_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2136",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2136_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2037",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2037_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1884",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1884_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1884",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1884_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2258",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2258_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2647",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2647_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f0822",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0822_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0509",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0509_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2404",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2404_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1719",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1719_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1480",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1480_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2739",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2739_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0651",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0651_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2262",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2262_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0771",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0771_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0113",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0113_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2340",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2340_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0933",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0933_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1207",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1207_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0551",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0551_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0344",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0344_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1154",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1154_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1390",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1390_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0366",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0366_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0904",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0904_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1471",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1471_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1132",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1132_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0095",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0095_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0200",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0200_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0344",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0344_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f0651",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0651_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2222",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2222_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m3250",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3250_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0498",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0498_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1244",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1244_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1334",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1334_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0660",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0660_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0470",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0470_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1156",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1156_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1248",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1248_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0175",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0175_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1515",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1515_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0660",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0660_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1029",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1029_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0808",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0808_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f2680",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2680_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1298",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1298_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2739",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2739_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0822",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0822_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2680",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2680_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1396",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1396_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "o1661",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1661_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "o1661",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1661_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f0810",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0810_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0275",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0275_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0932",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0932_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2345",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2345_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1054",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1054_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1298",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1298_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0374",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0374_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1154",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1154_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0551",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0551_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2363",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2363_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1439",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1439_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2647",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2647_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1906",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1906_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1824",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1824_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0430",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0430_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0838",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0838_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m3120",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3120_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0376",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0376_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f3291",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3291_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1156",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1156_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2739",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2739_1_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2861",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2861_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2826",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2826_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1462",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1462_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0113",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0113_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f0509",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0509_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2404",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2404_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1770",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1770_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2122",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2122_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1154",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1154_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0608",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0608_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0344",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0344_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2340",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2340_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1480",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1480_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1008",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1008_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1872",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1872_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2992",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2992_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2831",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2831_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1864",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1864_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f0200",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0200_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "o1897",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1897_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m3004",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3004_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1008",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1008_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1864",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1864_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f0822",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0822_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2917",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2917_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2136",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2136_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2037",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2037_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1672",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1672_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1967",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1967_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0640",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0640_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0768",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0768_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1498",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1498_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f3027",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3027_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0095",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0095_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2281",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2281_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0275",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0275_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2831",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2831_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0852",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0852_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f3265",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3265_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1244",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1244_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2938",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2938_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0933",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0933_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2493",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2493_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2385",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2385_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1864",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1864_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0706",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0706_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2186",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2186_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f3265",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3265_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0470",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0470_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1829",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1829_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1864",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1864_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2043",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2043_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2404",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2404_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1207",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1207_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0551",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0551_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1770",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1770_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m3209",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3209_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1850",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1850_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2493",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2493_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0376",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0376_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1706",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1706_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1091",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1091_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f3291",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3291_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2390",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2390_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f3291",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3291_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1439",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1439_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0164",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0164_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0164",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0164_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2828",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2828_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1480",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1480_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m3004",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3004_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f2827",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2827_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f2218",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2218_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f0822",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0822_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "o1900",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1900_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2122",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2122_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f0810",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0810_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1829",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1829_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1156",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1156_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f2739",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2739_1_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0810",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0810_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0238",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0238_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0275",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0275_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m3209",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3209_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0660",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0660_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2122",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2122_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1298",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1298_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0374",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0374_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "o1661",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1661_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1396",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1396_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0852",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0852_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0808",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0808_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1824",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1824_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1317",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1317_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0430",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0430_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2283",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2283_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1154",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1154_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0551",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0551_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2186",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2186_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2827",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2827_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0808",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0808_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2122",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2122_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2186",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2186_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0376",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0376_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1210",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1210_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1515",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1515_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2739",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2739_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0803",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0803_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1685",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1685_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0175",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0175_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f0087",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0087_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0328",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0328_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1471",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1471_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2222",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2222_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0200",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0200_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2938",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2938_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1685",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1685_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f3084",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3084_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0771",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0771_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0366",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0366_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0904",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0904_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m3250",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3250_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1248",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1248_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2976",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2976_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2283",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2283_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1498",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1498_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f0651",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0651_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0852",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0852_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f0706",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0706_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2281",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2281_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0750",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0750_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1824",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1824_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1054",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1054_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f3084",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3084_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0775",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0775_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1564",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1564_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f3249",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3249_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2917",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2917_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2647",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2647_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f3249",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3249_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0651",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0651_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f3027",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3027_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2677",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2677_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0764",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0764_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f2218",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2218_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0161",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0161_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1462",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1462_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2680",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2680_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f0509",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0509_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0808",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0808_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1533",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1533_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1054",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1054_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0470",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0470_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1244",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1244_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2493",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2493_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0498",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0498_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0977",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0977_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2680",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2680_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2082",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2082_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2827",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2827_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1850",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1850_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1884",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1884_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0810",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0810_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f0509",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0509_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1334",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1334_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "o1661",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1661_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "o1897",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1897_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2363",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2363_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2262",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2262_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0161",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0161_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0771",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0771_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0113",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0113_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2739",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2739_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1850",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1850_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1132",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1132_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1931",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1931_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1210",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1210_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0344",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0344_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f0933",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0933_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0175",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0175_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2493",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2493_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1533",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1533_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0328",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0328_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1931",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1931_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1435",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1435_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2151",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2151_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2082",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2082_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0932",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0932_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f2085",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2085_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1435",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1435_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1533",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1533_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1967",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1967_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1439",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1439_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "o1897",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1897_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2345",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2345_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2151",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2151_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1105",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1105_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1567",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1567_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1396",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1396_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1154",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1154_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2293",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2293_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1390",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1390_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1597",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1597_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "o1900",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1900_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1054",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1054_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2186",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2186_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1672",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1672_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f2323",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2323_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1515",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1515_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0328",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0328_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0852",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0852_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0768",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0768_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f0838",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0838_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2222",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2222_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2827",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2827_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0775",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0775_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0498",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0498_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1685",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1685_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1154",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1154_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1105",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1105_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1906",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1906_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0164",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0164_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2835",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2835_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f2293",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2293_1_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0608",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0608_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1597",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1597_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0161",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0161_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2085",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2085_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1029",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1029_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2750",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2750_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2828",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2828_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f0706",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0706_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1471",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1471_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0768",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0768_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2037",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2037_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f0810",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0810_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f3249",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3249_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f0977",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0977_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1207",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1207_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f2293",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2293_1_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0764",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0764_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0328",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0328_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1829",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1829_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2835",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2835_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0366",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0366_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1005",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1005_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2122",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2122_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1298",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1298_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0930",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0930_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0374",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0374_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2043",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2043_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0113",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0113_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0608",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0608_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1770",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1770_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1471",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1471_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2363",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2363_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "o1897",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1897_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "o1897",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1897_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2262",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2262_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1931",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1931_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2037",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2037_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m3250",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3250_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1005",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1005_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1850",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1850_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1706",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1706_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2750",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2750_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0095",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0095_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f2680",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2680_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1884",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1884_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0366",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0366_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1168",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1168_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f0281",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0281_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1498",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1498_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2493",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2493_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0498",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0498_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m3292",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3292_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1396",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1396_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f3265",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3265_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2218",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2218_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0161",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0161_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1462",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1462_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1390",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1390_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1054",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1054_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f2739",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2739_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2596",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2596_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0608",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0608_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2724",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2724_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1168",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1168_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f3084",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3084_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2404",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2404_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1864",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1864_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f3249",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3249_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2828",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2828_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2363",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2363_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1054",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1054_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f2293",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2293_1_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0764",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0764_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2363",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2363_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2390",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2390_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m3120",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3120_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1850",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1850_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1207",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1207_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0930",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0930_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2043",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2043_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2390",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2390_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0808",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0808_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2835",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2835_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f2122",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2122_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1207",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1207_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1906",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1906_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0608",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0608_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1597",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1597_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2218",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2218_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1685",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1685_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "o1897",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1897_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1872",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1872_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1706",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1706_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2262",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2262_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m3004",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3004_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "o1900",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1900_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1396",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1396_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0750",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0750_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1872",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1872_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1091",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1091_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2186",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2186_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1091",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1091_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m3292",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3292_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2293",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2293_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1909",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1909_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2218",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2218_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f0450",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0450_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2827",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2827_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2861",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2861_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f3084",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3084_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0551",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0551_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1317",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1317_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0328",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0328_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m3292",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3292_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "o1661",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1661_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2222",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2222_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1210",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1210_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2082",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2082_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f2085",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2085_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2799",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2799_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0154",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0154_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1435",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1435_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m3292",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3292_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1533",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1533_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f2323",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2323_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f3084",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3084_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1439",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1439_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2345",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2345_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2826",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2826_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1719",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1719_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0430",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0430_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0808",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0808_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2151",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2151_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0932",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0932_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2293",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2293_1_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0175",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0175_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1105",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1105_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f0281",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0281_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2385",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2385_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1317",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1317_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1906",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1906_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1691",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1691_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2677",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2677_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2493",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2493_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2262",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2262_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1156",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1156_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0087",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0087_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0450",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0450_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1005",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1005_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0775",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0775_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0344",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0344_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2404",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2404_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2853",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2853_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0822",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0822_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2861",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2861_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0838",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0838_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2724",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2724_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0932",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0932_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2186",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2186_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2293",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2293_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1931",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1931_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1967",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1967_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2136",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2136_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0376",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0376_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2037",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2037_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2262",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2262_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0238",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0238_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1005",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1005_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1967",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1967_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f0810",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0810_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0376",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0376_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1533",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1533_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1207",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1207_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f0838",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0838_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f0281",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0281_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f3084",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3084_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f0450",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0450_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0374",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0374_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f2085",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2085_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2647",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2647_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2976",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2976_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1597",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1597_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0095",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0095_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1471",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1471_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1156",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1156_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0275",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0275_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1685",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1685_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1884",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1884_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2085",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2085_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1719",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1719_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0509",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0509_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f0852",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0852_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1909",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1909_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1829",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1829_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0430",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0430_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1498",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1498_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1872",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1872_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2724",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2724_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1244",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1244_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2634",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2634_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1567",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1567_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2917",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2917_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "o1900",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/o1900_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1672",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1672_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m3120",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3120_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2340",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2340_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0750",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0750_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1105",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1105_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0200",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0200_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0904",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0904_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0977",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0977_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0764",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0764_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2677",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2677_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1824",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1824_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0803",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0803_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0087",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0087_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1091",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1091_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m3209",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3209_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2861",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2861_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0376",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0376_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2596",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2596_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0175",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0175_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1435",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1435_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0369",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0369_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1909",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1909_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2917",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2917_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0768",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0768_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m3120",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3120_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0977",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0977_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1691",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1691_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0161",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0161_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2677",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2677_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2739",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2739_1_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1091",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1091_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2826",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2826_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1706",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1706_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0803",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0803_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f3249",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3249_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0366",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0366_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1462",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1462_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2739",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2739_1_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f0238",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0238_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1567",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1567_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0904",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0904_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2992",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2992_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1008",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1008_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f0281",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0281_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0498",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0498_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1390",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1390_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f0200",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0200_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0764",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0764_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0430",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0430_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0838",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0838_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f3265",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3265_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2853",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2853_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0369",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0369_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f3027",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f3027_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2827",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2827_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1008",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1008_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2831",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2831_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2917",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2917_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m1029",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1029_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2680",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2680_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0344",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0344_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0930",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0930_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f0087",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0087_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1005",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1005_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0775",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0775_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0764",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0764_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f2799",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2799_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0087",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0087_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f0775",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0775_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1317",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1317_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1691",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1691_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2677",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2677_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2340",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2340_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2151",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2151_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f2853",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2853_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2345",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2345_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2826",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2826_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1567",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1567_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m1439",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1439_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m2136",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2136_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m2826",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2826_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2385",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2385_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0154",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0154_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2835",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2835_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1317",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1317_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2082",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2082_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m3120",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m3120_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0154",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0154_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0470",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0470_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2634",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2634_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1706",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1706_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f0200",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0200_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f0838",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0838_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1691",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1691_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0768",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0768_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f2861",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2861_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2677",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2677_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m0750",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0750_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1132",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1132_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1931",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1931_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f0651",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0651_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f0238",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0238_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m0164",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0164_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0175",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0175_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2596",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2596_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f2835",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2835_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f1435",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1435_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f0369",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0369_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m1091",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1091_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f2861",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2861_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2750",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2750_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2724",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2724_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2724",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2724_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1248",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1248_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "f2293",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2293_1_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f1244",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1244_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f2043",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f2043_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1334",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1334_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1829",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1829_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f1160",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1160_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "f1156",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1156_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1672",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1672_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "f1160",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1160_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "f0933",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0933_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1567",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1567_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m1564",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1564_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2596",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2596_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m2404",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2404_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m2917",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2917_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "f0450",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f0450_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m2826",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2826_0_sigh.wav",
+   "labels": "/m/07plz5l"
+  },
+  {
+   "spk_id": "m0551",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0551_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m2647",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m2647_0_sniff.wav",
+   "labels": "/m/07ppn3j"
+  },
+  {
+   "spk_id": "m0803",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0803_0_sneeze.wav",
+   "labels": "/m/01hsr_"
+  },
+  {
+   "spk_id": "m0328",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0328_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "f1719",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/f1719_0_cough.wav",
+   "labels": "/m/01b_21"
+  },
+  {
+   "spk_id": "m0640",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m0640_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  },
+  {
+   "spk_id": "m1471",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1471_0_laughter.wav",
+   "labels": "/m/01j3sz"
+  },
+  {
+   "spk_id": "m1439",
+   "wav": "/data/sls/scratch/yuangong/vocalsound2/data/vs_processed/data_16k/m1439_0_throatclearing.wav",
+   "labels": "/m/0dl9sf8"
+  }
+ ]
+}

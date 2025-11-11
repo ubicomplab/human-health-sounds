@@ -1,0 +1,8 @@
+.DS_Store
+vs_release_16k/audio_16k/*
+
+audio/*
+
+ca-cough-ony/public/audio_processed
+
+ca-cough-ony/public/all_sounds_combined.wav
