@@ -1,0 +1,16 @@
+ipykernel==6.30.1
+jupyter==1.1.1
+huggingface-hub==0.35.3
+tensorflow==2.20.0
+librosa==0.11.0
+matplotlib
+pandas==2.3.3
+utils==1.0.2
+seaborn==0.13.2
+lap==0.5.12
+plotly==6.3.1
+pydub==0.25.1
+mutagen==1.47.0
+flask==3.1.2
+flask_cors==6.0.1
+ffmpeg-python==0.2.0

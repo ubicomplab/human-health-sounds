@@ -65,7 +65,7 @@ export default function About({ handleClickExplore }) {
               VocalSound
             </a>, and the open-source code is available{" "}
             <a
-              href="https://github.com/hishambhatti/human-health-sounds"
+              href="https://github.com/ubicomplab/human-health-sounds"
               className="text-sky-600 hover:underline"
               target="_blank"
               rel="noopener noreferrer"

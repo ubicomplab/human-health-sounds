@@ -1,5 +1,7 @@
 .DS_Store
 vs_release_16k/audio_16k/*
+.venv-1
+backend/models--google--hear
 
 audio/*
 

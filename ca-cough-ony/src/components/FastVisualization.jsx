@@ -4,6 +4,9 @@ import SearchBar from "./SearchBar";
 import LoadingScreen from "./LoadingSpinner";
 import AboutButton from "./AboutButton";
 import ZoomButton from "./ZoomButton";
+import RecordButton from "./RecordButton";
+import RecordPanel from "./RecordPanel";
+import { RecordingMenu } from './RecordingMenu';
 import * as C from "../utils/visualization-config";
 import { checkFilters, darkenColor, getAxisPanIntent, getPanVector, findNearestValidCell, calculateCenterTransform, clampPanToGrid } from "../utils/utils";
 
@@ -23,6 +26,8 @@ export default function FastVisualization({ handleClickAbout }) {
   const [isGridReady, setIsGridReady] = useState(false);
   const [initialCenterApplied, setInitialCenterApplied] = useState(false);
   const [loadingProgress, setLoadingProgress] = useState(0);
+
+  const [showRecordPanel, setShowRecordPanel] = useState(false);
 
   const [selected, setSelected] = useState({ x: initialCenterIndex, y: initialCenterIndex })
   const trailHighlightsRef = useRef([]);
@@ -46,6 +51,50 @@ export default function FastVisualization({ handleClickAbout }) {
     translateX: 0,
     translateY: 0,
   });
+
+  // Stores all recordings the user has submitted
+  // Each entry: { id, x, y, audioURL, enabled: true }
+  const [recordings, setRecordings] = useState([]);
+
+  // Toggle to show/hide ALL recordings
+  const [showRecordings, setShowRecordings] = useState(true);
+
+  const [hoverX, setHoverX] = useState(0);
+  const [hoverY, setHoverY] = useState(0);
+
+  // NEW STATE: Stores the ID of the recording currently selected to display its menu
+  const [activeRecordingId, setActiveRecordingId] = useState(null);
+
+  // NEW STATE: Stores the coordinates of the cells to be highlighted as neighbors
+  // Format: [{ x: 60, y: 40 }, ...] (already converted to screen Y-coordinate)
+  const [neighborHighlights, setNeighborHighlights] = useState([]);
+
+  // Helper function to find the active recording and its screen position (Added for the menu)
+  const activeRecording = recordings.find(rec => rec.id === activeRecordingId);
+
+  const clickedRecordingRef = useRef(false);
+
+  const activeRecWithPos = activeRecording ? {
+      ...activeRecording,
+      // Calculate screen coordinates for menu positioning (center of the dot)
+      screenX: activeRecording.x * C.CELL_SIZE * transform.scale + transform.translateX + (C.CELL_SIZE * transform.scale) / 2,
+      screenY: activeRecording.y * C.CELL_SIZE * transform.scale + transform.translateY + (C.CELL_SIZE * transform.scale) / 2
+  } : null;
+
+  // Handler for the neighbor highlight button - Now uses the data from the recording object
+  const handleHighlightNeighbors = useCallback((rec) => {
+      // We already have the neighbor data (rec.neighbors) from when the recording was submitted.
+      const neighborCoords = rec.neighbors.map(neighbor => {
+          const [x_str, flippedY_str] = neighbor.grid.split('_');
+          return {
+              x: Number(x_str),
+              // Convert flippedY (from backend 0 is top) to canvas Y (0 is top)
+              y: C.GRID_SIZE - 1 - Number(flippedY_str),
+              similarity: neighbor.similarity
+          };
+      });
+      setNeighborHighlights(neighborCoords);
+  }, [setNeighborHighlights]);
 
   // Loading the single spritesheet image
   useEffect(() => {
@@ -247,11 +296,25 @@ export default function FastVisualization({ handleClickAbout }) {
       context.strokeRect(screenX, screenY, size, size);
     });
 
+    // Draw the Neighbor Highlights (as permanent trails)
+    neighborHighlights.forEach(item => {
+      const cellDrawX = item.x * C.CELL_SIZE;
+      const cellDrawY = item.y * C.CELL_SIZE;
+      const screenX = cellDrawX * transform.scale + transform.translateX;
+      const screenY = cellDrawY * transform.scale + transform.translateY;
+      const size = C.CELL_SIZE * transform.scale;
+
+      // Use a distinct style for neighbors (Orange/Gold)
+      context.strokeStyle = `rgba(255, 165, 0, 0.8)`;
+      context.lineWidth = 2.5;
+      context.strokeRect(screenX, screenY, size, size);
+    });
+
       // Draw the Selection Highlight
       const key = `${selX}_${C.GRID_SIZE - 1 - selY}`;
       const selectedData = dataJson[key];
 
-      if (selectedData && spritesheetRef.current) {
+      if (selectedData && spritesheetRef.current && activeRecordingId === null) {
         const cellDrawX = selX * C.CELL_SIZE;
         const cellDrawY = selY * C.CELL_SIZE;
 
@@ -298,6 +361,34 @@ export default function FastVisualization({ handleClickAbout }) {
         }
       }
 
+      recordings.forEach(rec => {
+      const cellX = rec.x * C.CELL_SIZE;
+      const cellY = rec.y * C.CELL_SIZE;
+
+      // Convert to screen space
+      const screenX = cellX * scale + translateX;
+      const screenY = cellY * scale + translateY;
+      const r = 30 * scale; // dot radius
+
+      // Alpha is reduced when showRecordings is false, making it non-interactive
+      const alpha = showRecordings
+                    ? (activeRecordingId === rec.id ? 1 : 0.8)
+                    : 0.3; // Very transparent when toggled off
+
+      context.fillStyle = `rgba(255, 0, 0, ${alpha})`; // Red dot
+
+      context.beginPath();
+      context.arc(screenX + C.CELL_SIZE * scale / 2, screenY + C.CELL_SIZE * scale / 2, r, 0, 2 * Math.PI);
+      context.fill();
+
+      // Draw a white ring for the active recording to make it stand out
+      if (activeRecordingId === rec.id) {
+          context.strokeStyle = 'rgba(255, 255, 255, 1)';
+          context.lineWidth = 4 * scale; // Scale the line width
+          context.stroke();
+      }
+    });
+
       animationFrameId = requestAnimationFrame(draw);
     };
 
@@ -307,7 +398,7 @@ export default function FastVisualization({ handleClickAbout }) {
     // Cleanup function to stop the animation when component unmounts or deps change
     return () => cancelAnimationFrame(animationFrameId);
 
-  }, [transform, selected, isGridReady, colorMode]);
+  }, [transform, selected, isGridReady, colorMode, activeRecordingId, neighborHighlights, recordings, showRecordings]);
 
   // Computes the index of a cell given the client position
   const getCellCoordinates = useCallback((e) => {
@@ -326,7 +417,6 @@ export default function FastVisualization({ handleClickAbout }) {
 
   // Updates everything that changes when user selects a new cell
   const handleCellSelect = useCallback((x, y) => {
-
     // Clamps to the edges if selection is out of bounds
     let targetX = Math.max(0, Math.min(x, C.GRID_SIZE - 1));
     let targetY = Math.max(0, Math.min(y, C.GRID_SIZE - 1));
@@ -418,10 +508,62 @@ export default function FastVisualization({ handleClickAbout }) {
   }, [selected.x, selected.y, filters]);
 
   // When user holding their mouse moves along the grid
+  const [hoveredRecording, setHoveredRecording] = useState(null);
+
+  // Automatically highlight neighbors on hover
+  useEffect(() => {
+    if (hoveredRecording && !activeRecordingId) {
+      const neighborCoords = hoveredRecording.neighbors.map(n => {
+        const [x_str, y_str] = n.grid.split("_");
+        return {
+          x: Number(x_str),
+          y: C.GRID_SIZE - 1 - Number(y_str),
+          similarity: n.similarity
+        };
+      });
+
+      setNeighborHighlights(neighborCoords);
+    } else if (!activeRecordingId) {
+      // When leaving hover over ANY recording
+      setNeighborHighlights([]);
+    }
+  }, [hoveredRecording, activeRecordingId]);
+
+
   const handleCanvasMouseMove = useCallback((e) => {
+    const rect = canvasRef.current.getBoundingClientRect();
+    const mouseX = e.clientX - rect.left;
+    const mouseY = e.clientY - rect.top;
+
+    setHoverX(e.clientX);
+    setHoverY(e.clientY);
+
+    if (showRecordings) {
+      let found = null;
+      const { scale, translateX, translateY } = transform;
+
+      for (const rec of recordings) {
+        const cx = rec.x * C.CELL_SIZE * scale + translateX + (C.CELL_SIZE*scale)/2;
+        const cy = rec.y * C.CELL_SIZE * scale + translateY + (C.CELL_SIZE*scale)/2;
+        const r = 75 * scale;
+
+        const dx = mouseX - cx;
+        const dy = mouseY - cy;
+
+        if (dx*dx + dy*dy <= r*r) {
+          // Only show hover tooltip if no menu is currently active
+          if (activeRecordingId === null) {
+             found = rec;
+          }
+          break;
+        }
+      }
+      setHoveredRecording(found);
+    }
+
     if (!isMouseDownRef.current) return;
 
-    const rect = canvasRef.current.getBoundingClientRect();
+    // const rect = canvasRef.current.getBoundingClientRect();
     lastMousePos.current = { x: e.clientX, y: e.clientY };
 
     const threshold = 10 * transform.scale + 110
@@ -443,17 +585,42 @@ export default function FastVisualization({ handleClickAbout }) {
 
     // still do your cell selection
     const { x, y } = getCellCoordinates(e);
-    handleCellSelect(x, y);
-  }, [getCellCoordinates, handleCellSelect, transform.scale]);
+    if (!clickedRecordingRef.current) {
+      handleCellSelect(x, y);
+    }
+  }, [getCellCoordinates, handleCellSelect, transform.scale, showRecordings, recordings, activeRecordingId]);
 
   const handleMouseDown = useCallback((e) => {
+    // If the click was on a recording, skip selection logic
+    if (showRecordings) {
+      const rect = canvasRef.current.getBoundingClientRect();
+      const mouseX = e.clientX - rect.left;
+      const mouseY = e.clientY - rect.top;
+      const { scale, translateX, translateY } = transform;
+
+      for (const rec of recordings) {
+        const cx = rec.x * C.CELL_SIZE * scale + translateX + (C.CELL_SIZE*scale)/2;
+        const cy = rec.y * C.CELL_SIZE * scale + translateY + (C.CELL_SIZE*scale)/2;
+        const r = 75 * scale;
+        const dx = mouseX - cx;
+        const dy = mouseY - cy;
+
+        if (dx*dx + dy*dy <= r*r) {
+          // Mark that this press is a recording press
+          clickedRecordingRef.current = true;
+          return;   // <-- STOP: Very important! Prevents selection + drag logic
+        }
+      }
+    }
+
     isMouseDownRef.current = true;
     handleCanvasMouseMove(e);
-  }, [handleCanvasMouseMove]);
+  }, [handleCanvasMouseMove, recordings, showRecordings, transform]);
 
   const handleMouseUp = useCallback(() => {
     isMouseDownRef.current = false;
     isPanningRef.current = false;
+    clickedRecordingRef.current = false;  // reset cleanly
   }, []);
 
   useEffect(() => {
@@ -614,6 +781,97 @@ export default function FastVisualization({ handleClickAbout }) {
     Math.abs(transform.translateX - fullCenterTransform.translateX) < 1 &&
     Math.abs(transform.translateY - fullCenterTransform.translateY) < 1;
 
+  // NEW HANDLER: For clicking on a recording dot
+  const handleCanvasClick = useCallback((e) => {
+    // Only process the click if we're not dragging/panning
+    if (!showRecordings || isMouseDownRef.current) return;
+
+    const rect = canvasRef.current.getBoundingClientRect();
+    const mouseX = e.clientX - rect.left;
+    const mouseY = e.clientY - rect.top;
+    const { scale, translateX, translateY } = transform;
+
+    let recordingClicked = false;
+    for (const rec of recordings) {
+      const cx = rec.x * C.CELL_SIZE * scale + translateX + (C.CELL_SIZE*scale)/2;
+      const cy = rec.y * C.CELL_SIZE * scale + translateY + (C.CELL_SIZE*scale)/2;
+      const r = 75 * scale;
+
+      const dx = mouseX - cx;
+      const dy = mouseY - cy;
+
+      if (dx*dx + dy*dy <= r*r) {
+        clickedRecordingRef.current = true;
+        // Toggle selection
+
+        //setSelected(rec.x, rec.y);
+
+        setSelected({ x: Math.round(rec.x), y: Math.round(rec.y) });
+
+        if (activeRecordingId === rec.id) {
+          setActiveRecordingId(null);
+          setNeighborHighlights([]); // Clear highlights when closing
+        } else {
+          setActiveRecordingId(rec.id);
+
+          // Automatically highlight top neighbors when clicked
+          const neighborCoords = rec.neighbors.map(n => {
+            const [x_str, y_str] = n.grid.split("_");
+            return {
+              x: Number(x_str),
+              y: C.GRID_SIZE - 1 - Number(y_str),
+              similarity: n.similarity
+            };
+          });
+
+          setNeighborHighlights(neighborCoords);
+        }
+        recordingClicked = true;
+        break; // Stop after finding one
+      }
+    }
+
+    // If the click was outside a recording dot but a menu was open, close it
+    if (!recordingClicked && activeRecordingId !== null) {
+        setActiveRecordingId(null);
+        setNeighborHighlights([]); // Clear highlights when closing
+    }
+
+    clickedRecordingRef.current = false;
+  }, [showRecordings, recordings, transform, activeRecordingId]);
+
+  const handleDeleteRecording = (idToDelete) => {
+    setRecordings(prevRecordings => prevRecordings.filter(r => r.id !== idToDelete));
+    setActiveRecordingId(null);
+    setNeighborHighlights([]);
+  };
+
+  const handleRecordingResult = ({ backend, audioBlob }) => {
+    console.log("Received recording result:", backend);
+
+    if (backend.status !== "ok") {
+      alert("Couldn't find similar health sounds in the dataset.");
+      return;
+    }
+
+    // Capture the median grid point and the top neighbors data
+    const { grid_x_median, grid_y_median, top_neighbors } = backend;
+
+    const url = URL.createObjectURL(audioBlob);
+
+    setRecordings(prev => [
+      ...prev,
+      {
+        id: prev.length + 1,
+        x: grid_x_median,
+        y: C.GRID_SIZE - 1 - grid_y_median,
+        audioURL: url,
+        enabled: true,
+        neighbors: top_neighbors, // <--- NEW: Store the neighbor data
+      }
+    ]);
+  };
+
   return (
     <div className="min-h-screen bg-[#f4f3ef] flex flex-col items-center justify-center font-[Poppins,sans-serif]">
       <div className="fixed inset-0" style={{ pointerEvents: isGridReady ? 'auto' : 'none' }}>
@@ -623,6 +881,7 @@ export default function FastVisualization({ handleClickAbout }) {
           onMouseDown={handleMouseDown}
           onMouseMove={handleCanvasMouseMove}
           onWheel={handleWheel}
+          onClick={handleCanvasClick}
           style={{
             opacity: (isGridReady && initialCenterApplied) ? 1 : 0,
             transition: 'opacity 0.3s ease-in',
@@ -631,6 +890,26 @@ export default function FastVisualization({ handleClickAbout }) {
             height: '100%',
           }}
         ></canvas>
+        {/* Hovered Recording Tooltip (Shows instruction to click) */}
+        {hoveredRecording && showRecordings && activeRecordingId === null && (
+          <div
+            className="absolute bg-white border shadow-lg px-3 py-2 rounded text-sm pointer-events-none"
+            style={{ left: hoverX + 10, top: hoverY + 10 }}
+          >
+            <strong>Recording {hoveredRecording.id}</strong>
+            <p className="mt-1 text-xs text-gray-600">Click to open menu</p>
+          </div>
+        )}
+
+        {/* Active Recording Menu */}
+        {activeRecWithPos && (
+            <RecordingMenu
+                recording={activeRecWithPos}
+                onClose={() => { setActiveRecordingId(null); setNeighborHighlights([]); }}
+                onHighlightNeighbors={handleHighlightNeighbors}
+                onDelete={handleDeleteRecording}
+            />
+        )}
         {(!isGridReady && !initialCenterApplied ) && (
           <div
           className={`fixed inset-0 transition-opacity duration-500 ${
@@ -641,7 +920,7 @@ export default function FastVisualization({ handleClickAbout }) {
           </div>
           )}
 
-        {selectedData && isGridReady && (
+        {selectedData && isGridReady && activeRecordingId === null && (
           <div
             className="absolute bg-white border border-gray-300 rounded-lg shadow-md px-3 py-2 text-xs pointer-events-none z-10 flex items-center justify-between"
             style={{
@@ -688,12 +967,19 @@ export default function FastVisualization({ handleClickAbout }) {
           </div>
         )}
       </div>
-
       {selectedData && isGridReady && (<div>
-        <div className="fixed top-6 right-6 z-20">
-        <AboutButton handleClick={handleClickAbout}>
-          ?
-        </AboutButton>
+        <div className="fixed top-6 right-6 z-20 flex flex-col items-end space-y-3">
+          <AboutButton handleClick={handleClickAbout}>?</AboutButton>
+          <RecordButton onClick={() => setShowRecordPanel(true)} />
+
+          {showRecordPanel && (
+            <RecordPanel
+              onClose={() => setShowRecordPanel(false)}
+              onSubmitResult={handleRecordingResult}
+              showRecordings={showRecordings}
+              setShowRecordings={setShowRecordings}
+            />
+          )}
         </div>
 
         <div className="fixed bottom-6 right-6 z-20 flex flex-col items-center space-y-4">

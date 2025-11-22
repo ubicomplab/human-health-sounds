@@ -13,6 +13,8 @@ This project takes a first step toward that goal by clustering human health soun
 
 The project provides an interactive grid visualization of clustered audio clips. Users can click on images to view metadata, click and drag to play several related clips simultaneously, and filter by metadata to discover patterns.
 
+Additionally, users can record their own audio, and view similar clips in the grid. Such a tool enables healthcare experts to accurately compare new audio with pre-existing data, to reveal underlying patterns and promote accurate diagnoses. Note that if not running the Flask server locally, it may take ~1 minute for the first time, but subsequent records should be processed quickly.
+
 A demo can be viewed from the following link: [https://hishambhatti.github.io/human-health-sounds/](https://hishambhatti.github.io/human-health-sounds)
 
 ## Usage
@@ -21,21 +23,26 @@ Here we describe the basic pipeline for transforming raw audio files into an eff
 
 ```
 human-health-sounds/
-├── backend/
+├── Notebooks/
 │   ├── Audio_Processing.ipynb
 │   ├── HeAR_embeddings.ipynb
 │   └── t-SNE_and_grid_clustering.ipynb
+│   └── requirements.txt
 ├── ca-cough-ony/  # React frontend
 │   ├── public/
 │   ├── src/
 │   └── package.json
-├── requirements.txt
+├── backend/ # Flask server for audio recording feature
+│   ├── models--google--hear/
+│   ├── app.py
+│   ├── match_audio.py
+│   ├── ...
 └── README.md
 ```
 
 ### Backend Setup (Python)
 
-To build the backend Python, first create a virtual environment and install the required dependencies.
+To build the backend Python, enter the notebooks folder by running `cd Notebooks`. Create a virtual environment and install the required dependencies.
 
 Some commands to create a virtual environment
 
@@ -75,6 +82,14 @@ Place the generated JSON file (either `vocalsound_wav.json` or `vocalsound_mp3.j
 
 `npm run dev`
 
+### Backend Server (for Audio Recording feature)
+
+If you want to enable the audio recording feature locally (*not necessary*), enter the `/backend` folder by running `cd backend` from the main diretory. Then, to start the flask server, run:
+
+`flask run`
+
+Currently, the frontend server connects to Google Cloud. To switch to connecting locally, uncomment the line in `const BACKEND_URL = "http://127.0.0.1:5000/get-grid-indices"` in `ca-cough-ony/src/components/RecordPanel.jsx`.
+
 ## Results
 
 Below is a visualization of our generated t-SNE cloud and LAP 2D grid for the processed VocalSound audio clips
@@ -101,14 +116,21 @@ The dataset used is [VocalSound](https://github.com/YuanGongND/vocalsound), an o
 
 ## Built With
 
-**Backend**:
+**Backend Logic**:
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
 ![Jupyter](https://img.shields.io/badge/Jupyter-ffffff?logo=Jupyter)
+
+**Backend Server** (for Audio recording):
+[![Flask](https://img.shields.io/badge/Flask-000?logo=flask&logoColor=fff)](#)
+[![Google Cloud](https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?logo=google-cloud&logoColor=white)](#)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=fff)](#)
+
 
 **Frontend**:
 [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
 [![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](#)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
+[![JSON](https://img.shields.io/badge/JSON-000?logo=json&logoColor=fff)](#)
 
 **Frameworks**:
 [![Node.js](https://img.shields.io/badge/Node.js-6DA55F?logo=node.js&logoColor=white)](#)
@@ -120,7 +142,13 @@ The dataset used is [VocalSound](https://github.com/YuanGongND/vocalsound), an o
 [![Pandas](https://img.shields.io/badge/Pandas-150458?logo=pandas&logoColor=fff)](#)
 [![Scikit-learn](https://img.shields.io/badge/-scikit--learn-%23F7931E?logo=scikit-learn&logoColor=white)](#)
 [![Matplotlib](https://custom-icon-badges.demolab.com/badge/Matplotlib-71D291?logo=matplotlib&logoColor=fff)](#)
+[![NumPy](https://img.shields.io/badge/NumPy-4DABCF?logo=numpy&logoColor=fff)](#)
 
 
 **Tools**:
 [![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?logo=huggingface&logoColor=000)](#)
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-121013?logo=github&logoColor=white)](#)
+
+## Disclaimer
+
+We do not store audio information provided by users. This tool is for research only.
